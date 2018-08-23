@@ -1,0 +1,214 @@
+/* GENERAL STYLES */
+body {
+	font-family: Arial, San-serif;
+	font-size: 100%;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+ul li {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+	color: black
+}
+p {
+	font-size: 13px;
+	line-height: 1.3em;
+	color: #004160;
+}
+.container {
+	margin: 0 auto;
+	width: 800px;	
+}
+
+/* HEADER */
+.header {
+	padding: 20px 0;
+	background: url(../../../images/header2_1800.jpg) no-repeat center;
+}
+.header h1,
+.header h2 {
+	color: #ffffff;
+	text-align: center;
+}
+
+/* NAVIGATION */
+.page-navigation {
+	background-color: #4E9CB5;	
+	min-height: 30px;	
+}
+.page-navigation li {
+	float: left;
+	width: 100px;
+}
+.page-navigation a {
+	display: block;
+	color: #ffffff;
+	line-height: 2em;
+	text-align: center;
+}
+.page-navigation li a:hover {
+	color: #00718D;
+}
+
+/* MAIN PART */
+.main-part {
+	margin: 0 auto;
+	width: 800px;
+	padding-bottom: 10px;
+	color: #004160;	
+}
+
+h2 {
+	text-align: center;
+	font-size: 25px;
+	color: #004160;
+}
+/*SLIDER*/
+.slider {
+ z-index: 9;
+ width: 800px;
+ height: 533px;
+ overflow: hidden;
+ margin: 0 0 7px;
+ position: relative;
+ 
+ }
+ .slider ul,
+ .slider li {
+ padding: 0;
+ margin: 0;
+ list-style-type: none;
+ }
+ .slider ul {
+ width: 9999px; 
+ }
+ .slider ul li {
+ list-style-type: none;
+ float: left;
+ width: 800px;
+ height: 533px;
+ }
+ .slider .nav {
+ position: absolute;
+ left: 15px;
+ bottom: 12px; 
+ }
+ .slider .nav span {
+ opacity: 0.9;
+ background: #fff;
+ margin: 0 8px 0 0;
+ width: 16px;
+ height: 16px;
+ border-radius: 8px;
+ cursor: pointer;
+ overflow: hidden;
+ display: block;
+ float: left;
+ box-shadow: 0 1px 2px #000;
+ }
+ .slider .nav span.on {
+ background: /*#2e9419*/ #4E9CB5;
+ }
+/* /SLIDER*/
+/*Цікавинка*/
+.interest {	
+	background-color: #7DAFFF;
+	float: left;
+	text-align: center;
+	margin-left: 100px;
+	margin-bottom: 20px;
+	padding: 0 10px 0 10px;
+}
+.interest p {
+	font-size: 20px;
+	line-height: .3em;
+
+}
+.interest-text {
+	margin: 0 20px 0 210px;
+	padding-left: 20px;	
+	height: 46px;
+	background-color: #e5fdff;
+}
+.interest-text p {
+	padding-top: 8px;
+}
+.interest {
+	transform: rotate(-4deg);
+}
+
+.interest-text p:hover {
+	transform: scale(1.01);
+}
+/* /Цікавинка*/
+/*Небезпечна цікавинка*/
+.interest1 {		
+	float: left;
+	text-align: center;
+	margin-left: 100px;
+	margin-bottom: 20px;
+	padding: 0 10px 0 10px
+	
+}
+.interest1 {
+	transform: rotate(-4deg);
+	background-color: #7DAFFF;
+}
+.interest1 p {
+	font-size: 20px;
+	line-height: 1em;
+	color: darkred;
+
+}
+.interest-text1 {
+	margin: 0 20px 0 230px;
+	padding-left: 25px;
+	padding-right: 20px;	
+	padding-bottom: 2px;	
+	height: 76px;
+	background-color: #e5fdff;	
+
+}
+.interest-text1 p {
+	padding-top: 8px;	
+}
+.interest-text1 p:hover {
+	transform: scale(1.01);
+}
+
+/* /Небезпечна цікавинка*/
+.button_in_text {
+	display: inline-block;
+	text-align: center;
+	width: 800px;
+}
+.button_in_text button {
+	border: 3px solid #7DAFFF;
+	height: 35px;
+	width: 170px;
+	border-radius: 18px;
+	background-color: #ffffff ;	
+	cursor: pointer;
+	margin-top: 15px;
+	display: block;
+	color: #7DAFFF;
+	font-weight: bold;
+	font-size: 14px;
+	display: inline-block;
+}
+.button_in_text button:hover {
+	background-color: #7DAFFF;
+	color: #ffffff;	
+}
+/* FOOTER */
+.footer {	
+	padding: 20px 10px 5px;	
+}
+.footer p {
+	font-size: 10px;
+	color: gray;	
+}

@@ -1,0 +1,143 @@
+/* GENERAL STYLES */
+body {
+	font-family: Arial, San-serif;
+	font-size: 100%;	
+	}
+ul {
+	margin: 0;
+	padding: 0;
+}
+ul li {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+p, h2 {
+	font-size: 13px;
+	line-height: 1.3em;
+	color: #004160;
+}
+.container {
+	margin: 0 auto;
+	width: 1080px;
+}
+
+/* HEADER */
+.header {
+	padding: 20px 0;
+	background: url(../../images/header2_1800.jpg) no-repeat center;
+	
+}
+.header h1,
+.header h2 {
+	color: #ffffff;
+	text-align: center;
+}
+
+/* NAVIGATION */
+.page-navigation {
+	background-color: #4E9CB5;	
+	min-height: 30px;
+}
+.page-navigation li {
+	float: left;
+	width: 100px;
+}
+.page-navigation a {
+	display: block;
+	color:  #ffffff;
+	line-height: 2em;
+	text-align: center;
+}
+.page-navigation li a:hover {
+	color: #00718D;
+}
+/* MAIN PART */
+.h2 {
+	text-align: center;
+	font-size: 40px;
+	line-height: 1em;
+	margin: 20px 0 10px 0;
+}
+.main-inner {
+	width: 960px auto;
+}
+
+.container img:hover {
+	transform: scale(1.01);
+}
+.image {
+	float: left;
+	margin-right: 20px;
+	padding-top: 20px;
+}
+.depart {
+	height: 410px;
+	padding-bottom: 13px;
+	border-bottom: 4px solid #7DAFFF;
+}
+.depart h3, p {
+	margin-left: 10px;
+}
+.depart-title {
+	font-size: 30px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 30px;
+	color: #004160;
+}
+.title-text p {
+	height: 240px;
+}
+button {
+	border: 3px solid #7DAFFF;
+	height: 35px;
+	border-radius: 18px;
+	background-color: #ffffff ;	
+	cursor: pointer;
+	margin-top: 5px;
+	color: #7DAFFF;
+	font-weight: bold;	
+	display: block;
+}
+.button {
+	display: block;
+}
+button:hover {
+	background-color: #7DAFFF;
+	color: #ffffff;	
+}
+
+.button_back {
+	display: inline-block;
+	width: 100%;
+	text-align: center;	
+}
+.button_back button {
+	border: 3px solid #7DAFFF;
+	height: 35px;
+	width: 120px;
+	border-radius: 18px;
+	background-color: #ffffff ;	
+	cursor: pointer;
+	margin-top: 15px;
+	display: block;
+	color: #7DAFFF;
+	font-weight: bold;
+	font-size: 14px;
+	display: inline-block;		
+}
+.button_back button:hover {
+	background-color: #7DAFFF;
+	color: #ffffff;	
+}
+
+/* FOOTER */
+.footer {	
+	padding: 20px 10px 5px;	
+}
+.footer p {
+	font-size: 10px;
+	color: gray;	
+}
