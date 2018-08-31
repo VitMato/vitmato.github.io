@@ -104,6 +104,12 @@ button:hover {
 	color: /*#7fa4d1*/ #ffffff;	
 }
 
+.fb-like {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
 /* /BUTTONS */
 
 /* FOOTER */
