@@ -19,10 +19,10 @@ p {
 	line-height: 1.3em;
 	color: #004160;
 }
-.container {
+/*.container {
 	margin: 0 auto;
 	width: 800px;	
-}
+}*/
 
 /* HEADER */
 .header {
@@ -203,6 +203,11 @@ h2 {
 .button_in_text button:hover {
 	background-color: #7DAFFF;
 	color: #ffffff;	
+}
+.fb-like {
+	padding-top: 25px;
+	padding-bottom: 10px;
+	text-align: center;
 }
 /* FOOTER */
 .footer {	
