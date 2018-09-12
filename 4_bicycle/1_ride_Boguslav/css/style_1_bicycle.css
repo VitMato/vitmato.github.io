@@ -210,6 +210,12 @@ h2 {
 	background-color: #7DAFFF;
 	color: #ffffff;	
 }
+
+.fb-like {
+	padding-top: 25px;
+	padding-bottom: 10px;
+	text-align: center;
+}
 /* FOOTER */
 .footer {	
 	padding: 20px 10px 5px;	
