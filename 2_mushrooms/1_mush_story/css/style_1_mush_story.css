@@ -97,6 +97,24 @@ h2 {
  left: 15px;
  bottom: 12px; 
  }
+ @media screen and (min-device-aspect-ratio: 1/2) and (max-device-aspect-ratio: 1/1) and (max-width: 600px) {
+.slider .nav span {
+ opacity: 0.9;
+ background: #fff;
+ margin: 0 8px 0 0;
+ width: 50px;
+ height: 50px;
+ border-radius: 25px;
+ cursor: pointer;
+ overflow: hidden;
+ display: block;
+ float: left;
+ box-shadow: 0 1px 2px #000;
+ }
+ }
+ 
+ @media screen and (min-width: 600px) {
+ 
  .slider .nav span {
  opacity: 0.9;
  background: #fff;
@@ -109,6 +127,7 @@ h2 {
  display: block;
  float: left;
  box-shadow: 0 1px 2px #000;
+ }
  }
  .slider .nav span.on {
  background: /*#2e9419*/ #4E9CB5;
