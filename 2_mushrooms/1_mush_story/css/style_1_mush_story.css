@@ -111,12 +111,15 @@ h2 {
  float: left;
  box-shadow: 0 1px 2px #000;
  }
+  .slider .nav span.on {
+ background: #e27b0d;
+ }
  }
  
  @media screen and (min-width: 600px) {
  
  .slider .nav span {
- opacity: 0.9;
+ opacity: 0.9;#e27b0d
  background: #fff;
  margin: 0 8px 0 0;
  width: 16px;
@@ -128,9 +131,10 @@ h2 {
  float: left;
  box-shadow: 0 1px 2px #000;
  }
- }
+ 
  .slider .nav span.on {
  background: #4E9CB5;
+ }
  }
 /* /SLIDER*/
 /*Цікавинка*/
