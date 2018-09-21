@@ -97,7 +97,7 @@ h2 {
  left: 15px;
  bottom: 12px; 
  }
- @media screen /*and (min-device-aspect-ratio: 1/2) and (max-device-aspect-ratio: 1/1.2)*/ and (max-width: 500px) {
+ @media screen and /*(min-device-aspect-ratio: 1/2) and (max-device-aspect-ratio: 1/1.2) and */(max-width: 500px) {
 .slider .nav span {
  opacity: 0.9;
  background: #fff;
@@ -136,6 +136,7 @@ h2 {
  background: #4E9CB5;
  }
  }
+ 
 /* /SLIDER*/
 /*Цікавинка*/
 .interest {	
