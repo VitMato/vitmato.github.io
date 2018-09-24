@@ -109,9 +109,9 @@ h3 {
  opacity: 0.9;
  background: #fff;
  margin: 0 8px 0 0;
- width: 16px;
- height: 16px;
- border-radius: 8px;
+ width: 30px;
+ height: 30px;
+ border-radius: 3px;
  cursor: pointer;
  overflow: hidden;
  display: block;
