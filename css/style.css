@@ -18,11 +18,24 @@ h2, p {
 	line-height: 1.3em;
 	color: #004160;
 }
+
 .container {
 	margin: 0 auto;
 	width: 960px;
 }
 
+@media screen and (min-device-aspect-ratio: 1/2) and (max-device-aspect-ratio: 1/1){
+h2, p {
+	font-size: 20px;
+	line-height: 1.3em;
+	color: #004160;
+}
+.container {
+	margin: 0 auto;
+	width: 600px;
+}
+
+}	
 /* HEADER */
 .header {
 	padding: 20px 0;
