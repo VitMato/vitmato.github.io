@@ -90,7 +90,7 @@ h2, p {
 }
 .title-text p {
 	height: 240px;
-	
+	text-overflow: ellipsis;
 }
 .text {
 	color: #004160;

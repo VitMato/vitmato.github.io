@@ -90,6 +90,9 @@ h2, p {
 	padding: 0 15px 15px 15px;
 	height: 180px;
 }
+.title-text p {
+	text-overflow: ellipsis;
+}
 .button_back {
 	display: inline-block;
 	width: 100%;
