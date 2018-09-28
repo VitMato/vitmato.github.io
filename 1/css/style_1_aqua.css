@@ -23,7 +23,7 @@ h2, p {
 	width: 960px;
 }
 @media screen and (min-device-aspect-ratio: 1/2) and (max-device-aspect-ratio: 1/1) {
-	p {
+h2,	p {
 	font-size: 15px;
 	line-height: 1.1em;
 	color: #004160;
