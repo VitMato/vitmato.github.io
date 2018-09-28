@@ -88,7 +88,7 @@ h2, p {
 }
 .title-text {
 	padding: 0 15px 15px 15px;
-	height: 180px;
+	height: 120px;
 }
 .title-text p {
 	text-overflow: ellipsis;
