@@ -26,7 +26,7 @@ h2, p {
 }
 @media screen and (min-device-aspect-ratio: 1/2) and (max-device-aspect-ratio: 1/1) {
 	p {
-	font-size: 22px;
+	font-size: 20px;
 	line-height: 1.3em;
 	color: #004160;
 }
@@ -111,6 +111,20 @@ button {
 button:hover {
 	background-color: #7DAFFF;
 	color: /*#7fa4d1*/ #ffffff;	
+}
+@media screen and (min-device-aspect-ratio: 1/2) and (max-device-aspect-ratio: 1/1) {
+	button {
+	border: 3px solid #7DAFFF;
+	height: 35px;
+	width: 170px;
+	border-radius: 18px;
+	background-color: #ffffff ;	
+	cursor: pointer;
+	margin-top: 5px;
+	display: block;
+	color: #7DAFFF;
+	font-weight: bold;
+}
 }
 
 .fb-like {
