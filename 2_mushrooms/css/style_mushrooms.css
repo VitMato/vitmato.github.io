@@ -55,7 +55,7 @@ h2, p {
 /* MAIN PART */
 @media screen and (max-device-width: 600px) {
 .container {
-	width: 100%:
+	width: 95%;
 }
 .h2 {
 	text-align: center;
