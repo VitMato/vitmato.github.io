@@ -97,33 +97,11 @@ h2 {
  left: 15px;
  bottom: 12px; 
  }
- /*@media screen and (min-device-aspect-ratio: 1/2) and (max-device-aspect-ratio: 1/1.2) and (max-width: 500px) {
-.slider .nav span {
- opacity: 0.9;
- background: #fff;
- margin: 0 8px 0 0;
- width: 90px;
- height: 90px;
- border-radius: 5px;
- cursor: pointer;
- overflow: hidden;
- display: block;
- float: left;
- box-shadow: 0 1px 2px #000;
- }
-  .slider .nav span.on {
- background: #e27b0d;
- }
- }
- 
- @media screen and (min-width: 500px) {
- */
+
  .slider .nav span {
  opacity: 0.9;
  background: #fff;
- margin: 0 8px 0 0;
- width: 30px;
- height: 30px;
+ margin: 0 8px 0 0; 
  border-radius: 3px;
  cursor: pointer;
  overflow: hidden;
@@ -131,7 +109,18 @@ h2 {
  float: left;
  box-shadow: 0 1px 2px #000;
  }
- 
+@media screen and (max-device-width: 600px) {
+ .slider .nav span {
+	width: 50px;
+	height: 50px;
+ }
+ }
+ @media screen and (min-device-width: 601px) {
+  .slider .nav span {
+	width: 20px;
+	height: 20px;
+ }
+ } 
  .slider .nav span.on {
  background: #4E9CB5;
  }
