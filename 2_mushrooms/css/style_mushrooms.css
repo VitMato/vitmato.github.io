@@ -147,6 +147,10 @@ button:hover {
 	background-color: #7DAFFF;
 	color: #ffffff;	
 }
+.button_back {
+	text-align: center;
+	
+}
 
 .fb-like {
 	padding-top: 25px;
