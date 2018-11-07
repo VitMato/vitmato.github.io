@@ -55,7 +55,7 @@ h2, p {
 /* MAIN PART */
 @media screen and (max-device-width: 600px) {
 .container {
-	width: 96%;
+	width: 95%;
 }
 .h2 {
 	text-align: center;
@@ -94,8 +94,7 @@ button {
 	cursor: pointer;
 	margin: 0 0 10px 0;
 	color: #7DAFFF;	
-	display: block;	
-	text-align: center;
+	display: block;		
 }
 }
 @media screen and (min-device-width: 601px) {
