@@ -55,34 +55,23 @@ h2, p {
 /* MAIN PART */
 @media screen and (max-device-width: 600px) {
 .container {
-	width: 95%;
-}
-.h2 {
-	text-align: center;
-	font-size: 35px;
-	margin: 20px 0 15px 0 ;
-}
-.depart h3 {
-	font-size: 32px;
-}
-.image {
-	width: 100%;
+	width: 98%;
 }
 .depart-title {
-	font-size: 20px;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	padding-top: 10px;
+	text-align: center;
+	font-size: 35px;
+	margin: 10px 0 15px 0 ;
+}
+.image {
+	margin-top: 12px;
+	width: 100%;
+}
+.title-text {
+	font-size: 30px;
+	margin: 5px 0 8px 0;
+	padding-top: 0;
 	color: #004160;
 }
-.text {	
-	margin-bottom: 2px;
-}
-p {
-	font-size: 30px;
-	margin: 5px 0 8px 0;	
-}
-
 .depart {	
 	margin-bottom: 5px;
 	border-bottom: 2px solid #7DAFFF;
