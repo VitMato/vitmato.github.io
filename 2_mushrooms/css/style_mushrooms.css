@@ -79,7 +79,8 @@ h2, p {
 	margin-bottom: 2px;
 }
 p {
-	font-size: 30px;	
+	font-size: 30px;
+	margin: 5px 0 8px 0;	
 }
 
 .depart {	
@@ -92,7 +93,7 @@ button {
 	border-radius: 18px;
 	background-color: #ffffff ;	
 	cursor: pointer;
-	margin: 0 0 10px 0;
+	margin: 0 0 20px 0;
 	color: #7DAFFF;	
 	display: block;		
 }
