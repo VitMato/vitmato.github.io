@@ -55,7 +55,7 @@ h2, p {
 /* MAIN PART */
 @media screen and (max-device-width: 600px) {
 .container {
-	margin-left: 1px;
+	margin-left: 2px;
 	width: 98%;
 }
 .depart-title {
