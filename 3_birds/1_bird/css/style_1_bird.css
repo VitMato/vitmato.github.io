@@ -15,7 +15,7 @@ a {
 	color: black
 }
 p {
-	font-size: 13px;
+	font-size: 15px;
 	line-height: 1.3em;
 	color: #004160;
 }
@@ -68,17 +68,14 @@ h2 {
 	color: #004160;
 }
 
-h3 {
-	margin-top: 5px;
-	margin-bottom: 0;
-}
+
 .text-to-slider p {
 	padding-top: 0;
 }
 /*SLIDER*/
 .slider {
  z-index: 9;
- width: 800px;
+ width: 98%;
  height: 533px;
  overflow: hidden;
  margin: 0 0 7px;
@@ -108,9 +105,7 @@ h3 {
  .slider .nav span {
  opacity: 0.9;
  background: #fff;
- margin: 0 8px 0 0;
- width: 30px;
- height: 30px;
+ margin: 0 8px 0 0; 
  border-radius: 3px;
  cursor: pointer;
  overflow: hidden;
@@ -118,15 +113,31 @@ h3 {
  float: left;
  box-shadow: 0 1px 2px #000;
  }
+@media screen and (max-device-width: 600px) {
+ .container {
+	margin: 0 auto;
+	width: 98%;	
+}
+ .slider .nav span {
+	width: 50px;
+	height: 50px;
+ }
+ .text-to-slider p {
+	font-size: 24px;
+ }
+ }
+ @media screen and (min-device-width: 601px) {
+  .slider .nav span {
+	width: 20px;
+	height: 20px;
+ }
+ } 
  .slider .nav span.on {
  background: #4E9CB5;
  }
-/* /SLIDER*/
-.text-to-slider {
-	margin-top: 0;
-	padding-bottom: 20px;
 
-}
+/* /SLIDER*/
+
 
 /*Цікавинка*/
 .interest {	
@@ -135,8 +146,8 @@ h3 {
 	text-align: center;
 	margin-left: 100px;
 	margin-bottom: 20px;
-	padding: 0 10px 0 10px
-
+	padding: 0 10px 0 10px;
+	border-radius: 3px;
 }
 .interest p {
 	font-size: 20px;
@@ -146,7 +157,7 @@ h3 {
 .interest-text {
 	margin: 0 20px 0 210px;
 	padding-left: 20px;	
-	height: 46px;
+	height: 70px;
 	background-color: #e5fdff;
 }
 .interest-text p {
@@ -166,8 +177,8 @@ h3 {
 	text-align: center;
 	margin-left: 100px;
 	margin-bottom: 20px;
-	padding: 0 10px 0 10px
-	
+	padding: 0 10px 0 10px;
+	border-radius: 3px;
 }
 .interest1 {
 	transform: rotate(-4deg);
@@ -184,7 +195,7 @@ h3 {
 	padding-left: 25px;
 	padding-right: 20px;	
 	padding-bottom: 2px;	
-	height: 76px;
+	height: 100px;
 	background-color: #e5fdff;		
 
 }
