@@ -109,6 +109,10 @@ h2 {
  box-shadow: 0 1px 2px #000;
  }
 @media screen and (max-device-width: 600px) {
+ .container {
+	margin: 0 auto;
+	width: 98%;	
+}
  .slider .nav span {
 	width: 50px;
 	height: 50px;
@@ -142,12 +146,13 @@ h2 {
 .interest p {
 	font-size: 20px;
 	line-height: .3em;
-
 }
+
 .interest-text {
-	margin: 0 20px 0 210px;
-	padding-left: 20px;	
-	height: 46px;
+	margin: 0 20px 10px 210px;
+	padding-left: 20px;
+	
+	height: 70px;
 	background-color: #e5fdff;
 	border-radius: 3px;
 }
@@ -186,7 +191,7 @@ h2 {
 	padding-left: 25px;
 	padding-right: 20px;	
 	padding-bottom: 2px;	
-	height: 76px;
+	height: 100px;
 	background-color: #e5fdff;	
 	border-radius: 3px;
 }
