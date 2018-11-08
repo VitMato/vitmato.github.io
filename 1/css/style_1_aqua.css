@@ -22,13 +22,6 @@ h2, p {
 	margin: 0 auto;
 	width: 960px;
 }
-@media screen and (min-device-aspect-ratio: 1/2) and (max-device-aspect-ratio: 1/1) {
-h2,	p {
-	font-size: 15px;
-	line-height: 1.1em;
-	color: #004160;
-}
-}
 
 /* HEADER */
 .header {

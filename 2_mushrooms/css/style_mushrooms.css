@@ -99,7 +99,6 @@ button {
 }
 }
 @media screen and (min-device-width: 601px) {
-
 .h2 {
 	text-align: center;
 	font-size: 40px;
@@ -116,13 +115,11 @@ button {
 	margin-right: 20px;
 	padding-top: 20px;
 }
-
 .depart {
 	display: inline-table;	
 	padding-bottom: 13px;
 	border-bottom: 4px solid #7DAFFF;
 }
-
 .depart-title {
 	font-size: 30px;
 	margin-top: 0px;
@@ -142,16 +139,13 @@ button {
 	display: block;	
 }
 }
-
 button:hover {
 	background-color: #7DAFFF;
 	color: #ffffff;	
 }
 .button_back {
-	text-align: center;
-	
+	text-align: center;	
 }
-
 .fb-like {
 	padding-top: 25px;
 	padding-bottom: 10px;
