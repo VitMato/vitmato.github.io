@@ -68,6 +68,7 @@ h2, p {
 }
 .depart {
 	margin-left: 0;
+	margin-bottom: 15px;
 	padding-left: 18px;
 	border-bottom: 3px solid #7DAFFF;
 }
@@ -89,6 +90,19 @@ h2, p {
 	font-size: 28px;
 	margin: 0;
 	padding: 4px 0 10px 0 ;
+}
+button {
+    border: 2px solid #7DAFFF;
+	height: 60px;
+	border-radius: 30px;
+	height: 60px;
+	width: 25%;
+	font-size: 25px;
+	background-color: #ffffff ;	
+	cursor: pointer;
+	margin: 0 0 20px 0;
+	color: #7DAFFF;	
+	display: block;		
 }
 }
 
@@ -116,6 +130,7 @@ h2, p {
 .depart {
 	border-bottom: 5px solid #7DAFFF;
 	background-color: #e5fdff;
+	margin-bottom: 15px;
 }
 .title-text {
 	padding: 0 15px 15px 15px;
@@ -123,32 +138,35 @@ h2, p {
 }
 .title-text p {
 	text-overflow: ellipsis;
+	margin-bottom: 2px;
+	margin-top: 2px;
 }
+button {
+	border: 2px solid #7DAFFF;
+	height: 22px;
+	border-radius: 11px;
+	background-color: #e5fdff;	
+	cursor: pointer;
+	color: #7DAFFF;
+	display: block;	
+	font-size: 12px;
+	padding-top: 0;
+	text-align: right;
 }
-.button_back {
-	display: inline-block;
-	width: 100%;
-	text-align: center;	
+button:hover {
+	background-color: #7DAFFF;
+	color: #ffffff;	
 }
 .button_back button {
-	border: 3px solid #7DAFFF;
-	height: 35px;
-	width: 140px;
-	border-radius: 18px;
-	background-color: #ffffff ;	
-	cursor: pointer;
-	margin-top: 15px;
-	display: block;
-	color: #7DAFFF;
-	font-weight: bold;
-	font-size: 14px;
-	display: inline-block;		
+	text-align: center;	
 }
-
+}
 .button_back button:hover {
 	background-color: #7DAFFF;
 	color: #ffffff;	
 }
+
+
 
 .fb-like {
 	padding-top: 25px;
