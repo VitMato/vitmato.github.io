@@ -55,6 +55,12 @@ p {
 
 /* MAIN PART */
 @media screen and (max-device-width: 600px) {
+.container {
+	margin-left: 0px;
+	padding-left: 5px;
+	width: 98%;
+}
+
 .title-text p {
 	font-size: 28px;
 }
