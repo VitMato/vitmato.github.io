@@ -72,7 +72,7 @@ h2 {
 /*SLIDER*/
 .slider {
  z-index: 9;
- width: 98%;
+ width: 100%;
  height: 533px;
  overflow: hidden;
  margin: 0 0 7px;
