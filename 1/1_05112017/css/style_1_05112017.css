@@ -91,15 +91,14 @@ p {
 }
 
 .button_in_text button {
-	border: 3px solid #7DAFFF;
-	
+	border: 3px solid #7DAFFF;	
 	background-color: #ffffff ;	
 	cursor: pointer;
 	margin-top: 15px;
+	margin-bottom: 10px;
 	display: block;
 	color: #7DAFFF;
 	font-weight: bold;
-
 	display: inline-block;	
 }
 .button_in_text button:hover {
