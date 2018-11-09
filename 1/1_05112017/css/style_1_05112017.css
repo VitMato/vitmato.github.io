@@ -54,6 +54,17 @@ p {
 }
 
 /* MAIN PART */
+@media screen and (max-device-width: 600px) {
+.title-text p {
+	font-size: 28px;
+}
+.button_in_text button {
+	width: 40%;
+	height: 60px;
+	font-size: 25px;
+	border-radius: 30px;
+}	
+}
 .depart {	
 	text-align: center;
 	color: #004160;	
@@ -64,19 +75,25 @@ p {
 .title-text {
 	text-align: left;
 }
+@media screen and (min-device-width: 601px) {
+.button_in_text button {
+	width: 220px;
+	height: 35px;
+	font-size: 14px;
+	border-radius: 18px;
+}
+}
 
 .button_in_text button {
 	border: 3px solid #7DAFFF;
-	height: 35px;
-	width: 220px;
-	border-radius: 18px;
+	
 	background-color: #ffffff ;	
 	cursor: pointer;
 	margin-top: 15px;
 	display: block;
 	color: #7DAFFF;
 	font-weight: bold;
-	font-size: 14px;
+
 	display: inline-block;	
 }
 .button_in_text button:hover {

@@ -57,6 +57,11 @@ p, h2 {
 }
 
 /* MAIN PART */
+@media screen and (max-device-width: 600px) {
+
+	
+}
+
 .main-part {
 	margin: 0 auto;
 	width: 800px;
@@ -119,10 +124,10 @@ h2 {
 	width: 50px;
 	height: 50px;
  }
- p {
-	font-size: 24px;
- }
- }
+.main-part p {
+	font-size: 28px;
+}
+}
  @media screen and (min-device-width: 601px) {
   .slider .nav span {
 	width: 20px;
