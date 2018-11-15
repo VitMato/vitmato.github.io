@@ -103,10 +103,12 @@ h1 {
 	padding-left: 15px;
 }
 .button_in_text button {
-	width: 30%;
+	width: 28%;
 	height: 60px;
-	font-size: 20px;
+	font-size: 25px;
+	font-weight: normal;
 	border-radius: 30px;
+	border: 2px solid #7DAFFF;
 }	
 }
 .depart {	
@@ -125,18 +127,18 @@ h1 {
 	height: 35px;
 	font-size: 14px;
 	border-radius: 18px;
+	border: 3px solid #7DAFFF;
+	font-weight: bold;
 }
 }
 
 .button_in_text button {
-	border: 3px solid #7DAFFF;	
 	background-color: #ffffff ;	
 	cursor: pointer;
 	margin-top: 15px;
 	margin-bottom: 20px;
 	display: block;
 	color: #7DAFFF;
-	font-weight: bold;
 	display: inline-block;	
 }
 .button_in_text button:hover {

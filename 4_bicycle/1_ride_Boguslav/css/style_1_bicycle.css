@@ -245,19 +245,34 @@ h2 {
 	text-align: center;
 	width: 800px;
 }
+@media screen and (max-device-width: 600px) {
 .button_in_text button {
-	border: 3px solid #7DAFFF;
+	width: 28%;
+	height: 60px;
+	font-size: 23px;
+	font-weight: normal;
+	border-radius: 30px;
+	border: 2px solid #7DAFFF;
+}
+}
+@media screen and (min-device-width: 601px) {
+.button_in_text button {
+	width: 220px;
 	height: 35px;
-	width: 140px;
+	font-size: 14px;
 	border-radius: 18px;
+	border: 3px solid #7DAFFF;
+	font-weight: bold;
+}
+}
+.button_in_text button {
 	background-color: #ffffff ;	
 	cursor: pointer;
 	margin-top: 15px;
+	margin-bottom: 20px;
 	display: block;
 	color: #7DAFFF;
-	font-weight: bold;
-	font-size: 14px;
-	display: inline-block;
+	display: inline-block;	
 }
 .button_in_text button:hover {
 	background-color: #7DAFFF;
