@@ -130,8 +130,11 @@ h1 {
 	border: 3px solid #7DAFFF;
 	font-weight: bold;
 }
-}
 
+}
+.title-text p {
+	margin-top: 0;
+}
 .button_in_text button {
 	background-color: #ffffff ;	
 	cursor: pointer;
